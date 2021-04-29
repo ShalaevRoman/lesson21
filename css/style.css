@@ -1,0 +1,260 @@
+.conteiner {
+  width: 78%;
+  margin: 0 auto;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.header__item {
+  padding: 26px 49px;
+  position: relative;
+}
+
+.header__item:nth-child(1) {
+  margin: 0 0 0 56px;
+}
+
+.header__item:nth-child(2) {
+  padding-left: 55px;
+}
+
+.header__item:nth-child(3) {
+  margin: 0 0 0 -46px;
+}
+
+.header__item:nth-child(4) {
+  margin: 0 0 0 -45px;
+}
+
+.header__item:nth-child(5) {
+  margin: 0 0 0 -43px;
+}
+
+.header__item:nth-child(6) {
+  margin: 0 0 0 -44px;
+}
+
+.activ {
+  background-color: #3f3f3f;
+  border-radius: 0 0 5px 5px;
+}
+
+.header__item:hover {
+  background-color: #3f3f3f;
+  border-radius: 0 0 5px 5px;
+  color: #fff;
+}
+
+.header__item:hover .header__link {
+  color: white;
+}
+
+.header__link,
+.submenu__link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.submenu {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 71px;
+  z-index: 1;
+}
+
+.submenu__item {
+  padding: 20px 49px;
+  background-color: #3f3f3f;
+  border-radius: 5px;
+}
+
+.submenu__item:hover {
+  background-color: #5a5a5a;
+}
+
+.submenu__item:hover .submenu__link {
+  color: #fff;
+}
+
+.header__item:hover .submenu {
+  display: block;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 197px;
+  padding-bottom: 159px;
+  border-bottom: 2px solid rgb(194, 194, 194);
+}
+
+.main__logo {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #df6267;
+}
+
+.main__logo-pic {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.main__heading {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  margin-top: 74px;
+  margin-left: 1%;
+}
+
+.primary {
+  margin-top: 178px;
+  text-align: center;
+}
+
+.primary__heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 5px;
+  letter-spacing: 1.4px;
+  word-spacing: 4px;
+  margin-left: 1%;
+}
+
+.primary__txt {
+  line-height: 43px;
+  font-size: 1.3rem;
+  margin-top: 46px;
+  padding-bottom: 133px;
+  border-bottom: 2px solid rgb(194, 194, 194);
+}
+
+.secondary__works {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary__title {
+  letter-spacing: 2px;
+  padding: 25px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.secondary__txt {
+  letter-spacing: -1px;
+  padding: 25px 1px 25px 0;
+  font-size: 1.5rem;
+}
+
+.secondary__gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.secondary__gallery a {
+  padding-top: 73px;
+  padding-bottom: 19px;
+  padding-right: 10px;
+  padding-left: 1px;
+}
+
+.secondary__gallery img {
+  width: 465px;
+  height: 330px;
+}
+
+.following {
+  text-align: center;
+  margin-top: 106px;
+}
+
+.following__block {
+  margin: 50px 0 91px;
+  padding: 50px 0;
+}
+
+.following__title {
+  margin: 35px 0;
+}
+
+.following__button {
+  padding: 30px 133px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #df6267;
+  border-radius: 5px;
+}
+
+.following__title {
+  letter-spacing: 3px;
+  padding: 25px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.following__txt {
+  font-size: 1.3rem;
+}
+
+.following__info {
+  font-size: 1.3rem;
+  line-height: 46px;
+  margin-top: 32px;
+}
+
+.following aside:last-child {
+  padding-bottom: 65px;
+  margin-bottom: 0;
+  border-bottom: 2px solid rgb(194, 194, 194);
+}
+
+.last {
+  margin-top: -30px;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 89px;
+}
+
+.footer__list {
+  width: 50%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__link {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.footer__copiright {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 79px;
+}

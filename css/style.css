@@ -212,7 +212,7 @@
 }
 
 .following__title {
-  letter-spacing: 3px;
+  letter-spacing: calc(var(--letter-spacing-size) + 0.1rem);
   padding: 25px;
   font-size: 1.7rem;
   font-weight: bold;

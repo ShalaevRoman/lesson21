@@ -163,7 +163,6 @@
 }
 
 .secondary__txt {
-  letter-spacing: -1px;
   padding: 25px 1px 25px 0;
   font-size: 1.5rem;
 }
@@ -209,6 +208,7 @@
   font-weight: bold;
   background-color: #df6267;
   border-radius: 5px;
+  letter-spacing: var(--letter-spacing-size);
 }
 
 .following__title {

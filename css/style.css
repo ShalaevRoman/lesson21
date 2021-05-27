@@ -156,10 +156,10 @@
 }
 
 .secondary__title {
-  letter-spacing: 2px;
   padding: 25px;
   font-size: 1.7rem;
   font-weight: bold;
+  letter-spacing: calc(var(--letter-spacing-size) + 0.2rem);
 }
 
 .secondary__txt {

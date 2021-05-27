@@ -4,6 +4,10 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
+:root {
+  --letter-spacing-size: 0.1rem;
+}
+
 .header__list {
   display: flex;
   flex-direction: row;
@@ -18,27 +22,27 @@
 }
 
 .header__item:nth-child(1) {
-width: 15%;
+  width: 15%;
 }
 
 .header__item:nth-child(2) {
-width: 13.5%;
+  width: 13.5%;
 }
 
 .header__item:nth-child(3) {
-width: 10%;
+  width: 10%;
 }
 
 .header__item:nth-child(4) {
-width: 11.5%;
+  width: 11.5%;
 }
 
 .header__item:nth-child(5) {
-width: 10%;
+  width: 10%;
 }
 
 .header__item:nth-child(6) {
-width: 9%;
+  width: 9%;
 }
 
 .active {
@@ -119,7 +123,7 @@ width: 9%;
   text-transform: uppercase;
   font-weight: bold;
   word-spacing: 4px;
-  letter-spacing: 1px;
+  letter-spacing: var(--letter-spacing-size);
   margin-top: 74px;
   margin-left: 1%;
 }
